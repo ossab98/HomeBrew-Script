@@ -34,7 +34,6 @@ echo "Installing development apps..."
     brew install --cask github
     brew install --cask postman
     brew install --cask proxyman
-    brew install --cask strongvpn
     brew install --cask forticlient-vpn
     
 # Communication Apps
