@@ -10,12 +10,16 @@ echo "Installing brew..."
 
 # Homebrew Packages
 echo "Installing homebrew Packages... "
-    brew install archey              # custom terminal - 1
+    brew install neofetch            # custom terminal - 1
     brew install zsh                 # custom terminal - 2
     brew install zsh-completions     # custom terminal - 3
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 
     brew install ruby-install        # development package
     brew install cocoapods           # development package
     brew install youtube-dl          # download videos --> youtube-dl "https://www.youtube.com/video"
+    brew install curl
+    brew install wget
+
 
 # Dev Tools
 echo "Installing development tools..."
@@ -35,6 +39,7 @@ echo "Installing development apps..."
     brew install --cask postman
     brew install --cask proxyman
     brew install --cask forticlient-vpn
+    # brew install --cask alacritty            # custom terminal
     
 # Communication Apps
 echo "Installing communication apps..."
