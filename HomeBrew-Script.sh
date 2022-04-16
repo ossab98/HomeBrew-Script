@@ -20,7 +20,6 @@ echo "Installing homebrew Packages... "
     brew install curl
     brew install wget
 
-
 # Dev Tools
 echo "Installing development tools..."
     brew install git
@@ -38,8 +37,7 @@ echo "Installing development apps..."
     brew install --cask github
     brew install --cask postman
     brew install --cask proxyman
-    brew install --cask forticlient-vpn
-    # brew install --cask alacritty            # custom terminal
+    brew install --cask forticlient
     
 # Communication Apps
 echo "Installing communication apps..."
