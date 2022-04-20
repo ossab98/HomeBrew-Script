@@ -19,6 +19,7 @@ echo "Installing homebrew Packages... "
     brew install youtube-dl          # download videos --> youtube-dl "https://www.youtube.com/video"
     brew install curl
     brew install wget
+    brew install tailor
 
 # Dev Tools
 echo "Installing development tools..."
