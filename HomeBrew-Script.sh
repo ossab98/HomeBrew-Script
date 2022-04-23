@@ -39,6 +39,7 @@ echo "Installing development apps..."
     brew install --cask postman
     brew install --cask proxyman
     brew install --cask forticlient
+    brew install --cask amethyst # Tiling window manager for macOS along the lines of xmonad.
     
 # Communication Apps
 echo "Installing communication apps..."
